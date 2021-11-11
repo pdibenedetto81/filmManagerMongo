@@ -1,0 +1,18 @@
+- ) installare GIT con le impostazioni di defafult
+- ) dal prompt dei comandi lanciare il comando "git init" nella cartella radice del progetto sw (quella dove c'è anche il file pom.xml) per creare un repository git locale in questa cartella.
+- ) inscriversi ad un servizio di repository git gratuito (GitHub consigliato, ma potreste provare anche GitLab o BitBucket)
+- ) creare un repository chiamato "FilmManager" e salvare/copiare l'indirizzo https del repository remoto
+SEMPRE NELLA CARTELLA ROOT DEL PROGETTO:
+- ) lanciare il comando "git add --all" nella cartella del progetto per aggiungere tutti i file nello stage
+- ) eseguire i comandi :
+		git config --global user.name "#NOME# #COGNOME#"
+		git config --global user.email "#EMAIL#"
+	sostituendo il proprio nome e cognome e email.
+- ) lanciare il comando: git commit -m "FIRST COMMIT"  per committare tutto il contenuto della stage nella history del repository locale
+- ) lanciare il comando: git remote add origin "#INDIRIZZO DEL REPOSITORY REMOTO#"
+- ) lanciare il comando: git push -u origin main
+		in caso di errore sostituire main con master, questo dipende da come si chiama il branch (o ramo) principale
+
+a questo punto verificate sul repository remoto (github) che ci sia il codice del progetto.
+
+invitare pdibenedetto81 a collaborare sul repository per permettermi di visionare il vostro codice	
